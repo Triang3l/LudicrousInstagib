@@ -14,11 +14,32 @@ Download the repository and copy the files in the `ROTTGame` folder to the `My G
 
 To join an instagib server, simply install the mod and connect to the server using the server browser.
 
-To launch a server, you must use the command line. Use the same command line arguments as when you launch a deathmatch server, but change the `?game=` option from `ROTTGame.ROTTGame_MultiplayerDM` to `ROTTInstagib.ROTTGame_MultiplayerIDM`.
+You can launch a server two ways.
+
+## From the launcher
+
+You can use the dedicated launcher provided with the game to start instagib servers.
+
+In `ROTTGame/Config/MultiplayerData.ini` in the game folder, after the last `ROTTUIDataProvider_GameModeInfo` block, add:
+
+	[ROTTGame_MultiplayerIDM ROTTUIDataProvider_GameModeInfo]
+	GameMode=ROTTInstagib.ROTTGame_MultiplayerIDM
+	FriendlyName=Instagib DM
+	DefaultMap=DM1
+	Prefixes=DM
+	OptionSet=DM
+	LimitString=Max frags
+	bSupportPlayerHighlight=true
+	GameModePrefixes=DM|TDM
+	PreviewImageMarkup=UIMapScreenshots.MapsSST.SCTF1_728
+
+## From the command line
+
+To launch an instagib server from the command line, use the same command line arguments as when you launch a deathmatch server, but change the `?game=` option from `ROTTGame.ROTTGame_MultiplayerDM` to `ROTTInstagib.ROTTGame_MultiplayerIDM`.
 
 For example, to start an Internet instagib server named "MyServer" on Drop the Base with the Quake Live rules (50 frags, 15 minutes, 8 players), use the following command line:
 
-    "Binaries\Win32\ROTT.exe" server " DM2?game=ROTTInstagib.ROTTGame_MultiplayerIDM?dedicated=true?timelimit=15?goalscore=50?maxplayers=8?minnetplayers=1?servername=MyServer?name=MyServer" -log
+	"Binaries\Win32\ROTT.exe" server " DM2?game=ROTTInstagib.ROTTGame_MultiplayerIDM?dedicated=true?timelimit=15?goalscore=50?maxplayers=8?minnetplayers=1?servername=MyServer?name=MyServer" -log
 
 Map cycles are created the same way as for other game modes, using `GameSpecificMapCycles` in `ROTTGame.ini` `ROTTGame.ROTTGameBase`. The `GameClassName` for the map cycle must be `ROTTGame_MultiplayerIDM`.
 
