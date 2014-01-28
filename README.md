@@ -16,7 +16,7 @@ To join an instagib server, simply install the mod and connect to the server usi
 
 To launch a server, you must use the command line. Use the same command line arguments as when you launch a deathmatch server, but change the `?game=` option from `ROTTGame.ROTTGame_MultiplayerDM` to `ROTTInstagib.ROTTGame_MultiplayerIDM`.
 
-For example, to start an Internet instagib server named "MyServer" on Drop The Base with the Quake Live rules (50 frags, 15 minutes, 8 players), use the following command line:
+For example, to start an Internet instagib server named "MyServer" on Drop the Base with the Quake Live rules (50 frags, 15 minutes, 8 players), use the following command line:
 
     "Binaries\Win32\ROTT.exe" server " DM2?game=ROTTInstagib.ROTTGame_MultiplayerIDM?dedicated=true?timelimit=15?goalscore=50?maxplayers=8?minnetplayers=1?servername=MyServer?name=MyServer" -log"
 
