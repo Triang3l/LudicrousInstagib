@@ -18,7 +18,7 @@ To launch a server, you must use the command line. Use the same command line arg
 
 For example, to start an Internet instagib server named "MyServer" on Drop the Base with the Quake Live rules (50 frags, 15 minutes, 8 players), use the following command line:
 
-    "Binaries\Win32\ROTT.exe" server " DM2?game=ROTTInstagib.ROTTGame_MultiplayerIDM?dedicated=true?timelimit=15?goalscore=50?maxplayers=8?minnetplayers=1?servername=MyServer?name=MyServer" -log"
+    "Binaries\Win32\ROTT.exe" server " DM2?game=ROTTInstagib.ROTTGame_MultiplayerIDM?dedicated=true?timelimit=15?goalscore=50?maxplayers=8?minnetplayers=1?servername=MyServer?name=MyServer" -log
 
 Modifying
 =========
