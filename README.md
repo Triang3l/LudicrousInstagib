@@ -27,23 +27,7 @@ After copying the files, open `ROTTGame/Config/MultiplayerData.ini` in the game 
 
 To join an instagib server, simply install the mod and connect to the server using the server browser.
 
-You can launch a server two ways.
-
-## Using the Host Game menu or the dedicated server launcher
-
-You can use the game menu or the dedicated server launcher provided with the game to start instagib servers.
-
-Select "Instagib DM" from the drop-down game type selection menu when launching a server.
-
-## From the command line
-
-To launch an instagib server from the command line, use the same command line arguments as when you launch a deathmatch server, but change the `?game=` option from `ROTTGame.ROTTGame_MultiplayerDM` to `ROTTInstagib.ROTTGame_MultiplayerIDM`.
-
-For example, to start an Internet instagib server named "MyServer" on Drop the Base with the Quake Live rules (50 frags, 15 minutes, 8 players), use the following command line:
-
-	"Binaries\Win32\ROTT.exe" server " DM2?game=ROTTInstagib.ROTTGame_MultiplayerIDM?dedicated=true?timelimit=15?goalscore=50?maxplayers=8?minnetplayers=1?servername=MyServer?name=MyServer" -log
-
-Map cycles are created the same way as for other game modes, using `GameSpecificMapCycles` in `ROTTGame.ini` `ROTTGame.ROTTGameBase`. The `GameClassName` for the map cycle must be `ROTTGame_MultiplayerIDM`.
+To start a server, select "Instagib DM" in the game type drop-down menu on the Host Game screen or in the dedicated server launcher.
 
 Modifying
 =========
