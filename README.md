@@ -30,7 +30,7 @@ In order to rebuild the mod, you need to copy some files to your Rise of the Tri
 
 Then, open `ROTTGame/Config/ROTTEngine.ini` in your game folder using a text editor, and after all `EditPackages` definition add a line containing `EditPackages=ROTTInstagib`.
 
-To compile the scripts, use the `make -nodelete` commandlet of `ROTTEditor.exe`. The `-noeditor` option is important since the tool will try to delete `UDKBase.u`, which is incompatible with Rise of the Triad, but required to build the mod.
+To compile the scripts, use the `make -nodelete` commandlet of `ROTTEditor.exe`. The `-nodelete` option is important since the tool will try to delete `UDKBase.u`, which is incompatible with Rise of the Triad, but required to build the mod.
 
 If you do everything correctly, the compilation will end with 1 warning and 1 error about the `UDKBase.u` file. Simply ignore them, it is explained why in the previous paragraph.
 
