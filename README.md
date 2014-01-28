@@ -18,7 +18,7 @@ To launch a server, you must use the command line. Use the same command line arg
 
 For example, to start an Internet instagib server named "MyServer" on Drop The Base with the Quake Live rules (50 frags, 15 minutes, 8 players), use the following command line:
 
-`"Binaries\Win32\ROTT.exe" server " DM2?game=ROTTInstagib.ROTTGame_MultiplayerIDM?dedicated=true?bIsLanMatch=true?timelimit=15?goalscore=50?maxplayers=8?minnetplayers=1?servername=MyServer?name=MyServer" -log"`
+`"Binaries\Win32\ROTT.exe" server " DM2?game=ROTTInstagib.ROTTGame_MultiplayerIDM?dedicated=true?timelimit=15?goalscore=50?maxplayers=8?minnetplayers=1?servername=MyServer?name=MyServer" -log"`
 
 Modifying
 =========
@@ -26,7 +26,7 @@ Modifying
 In order to rebuild the mod, you need to copy some files to your Rise of the Triad game folder:
 * `Development` to the folder's root.
 * `ROTTGame/Published/CookedPC/Packages/Archetypes/InstagibArchetypes.upk` to `ROTTGame/Content/Archetypes`.
-* `UDKBase.u` to `ROTTGame/Script/UDKBase.u`.
+* `UDKBase.u` to `ROTTGame/Script`.
 
 Then, open `ROTTGame/Config/ROTTEngine.ini` in your game folder using a text editor, and after all `EditPackages` definition add a line containing `EditPackages=ROTTInstagib`.
 
