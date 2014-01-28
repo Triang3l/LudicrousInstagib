@@ -23,7 +23,7 @@ To start a listen server, select "Instagib Death Match" in the game type drop-do
 If you want to start a dedicated server, you need to jump through some hoops:
 
 1. Insert the contents of `ROTTGame/Config/ROTTInstagib.ini` into `ROTTGame/Config/MultiplayerData.ini` in the game folder under the `[ROTTGame_MultiplayerDM ROTTUIDataProvider_GameModeInfo]` block.
-2. Delete the `ROTTInstagib.ini` file.
+2. Delete the `ROTTInstagib.ini` file. Listen servers will still work as normal, `ROTTInstagib.ini` is there primarily for easy client installation.
 3. Select "Instagib Death Match" in the game type drop-down menu in the dedicated server launcher.
 
 Modifying
