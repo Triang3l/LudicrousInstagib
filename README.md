@@ -18,7 +18,7 @@ Download the repository and copy the files in the `ROTTGame` folder to the `My G
 
 To join an instagib server, simply install the mod and connect to the server using the server browser.
 
-To start a server, select "Instagib Death Match" in the game type drop-down menu on the Host Game screen or in the dedicated server launcher.
+To start a server, first *insert the contents of `ROTTGame/Config/ROTTInstagib.ini` into `ROTTGame/Config/MultiplayerData.ini` in the game folder under `[ROTTGame_MultiplayerDM ROTTUIDataProvider_GameModeInfo]`*, and then select "Instagib Death Match" in the game type drop-down menu on the Host Game screen or in the dedicated server launcher.
 
 Modifying
 =========
