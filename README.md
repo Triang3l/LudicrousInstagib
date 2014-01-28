@@ -16,19 +16,6 @@ Installing and running
 
 Download the repository and copy the files in the `ROTTGame` folder to the `My Games/Rise Of The Triad/ROTTGame` folder in your Documents directory.
 
-After copying the files, open `ROTTGame/Config/MultiplayerData.ini` in the game folder, and after the last `ROTTUIDataProvider_GameModeInfo` block, add:
-
-	[ROTTGame_MultiplayerIDM ROTTUIDataProvider_GameModeInfo]
-	GameMode=ROTTInstagib.ROTTGame_MultiplayerIDM
-	FriendlyName=Instagib Death Match
-	DefaultMap=DM1
-	Prefixes=DM
-	OptionSet=DM
-	LimitString=Max frags
-	bSupportPlayerHighlight=true
-	GameModePrefixes=DM|TDM
-	PreviewImageMarkup=UIMapScreenshots.MapsSST.SCTF1_728
-
 To join an instagib server, simply install the mod and connect to the server using the server browser.
 
 To start a server, select "Instagib Death Match" in the game type drop-down menu on the Host Game screen or in the dedicated server launcher.
