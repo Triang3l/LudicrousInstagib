@@ -7,6 +7,10 @@ Every player wields a pistol and a pair of knives that explode enemies into (som
 
 There are no pickups on the maps except for the Elasto Mode, the Mercury Mode and the Shrooms.
 
+Steam Discussions topic: http://steamcommunity.com/app/217140/discussions/5/540731691341913556/
+
+(If you fall into lava and the crosshair disappears, use the knives and it will appear again - this is a bug in the game itself.)
+
 Installing and running
 ======================
 
