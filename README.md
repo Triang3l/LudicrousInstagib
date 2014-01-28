@@ -12,15 +12,7 @@ Installing and running
 
 Download the repository and copy the files in the `ROTTGame` folder to the `My Games/Rise Of The Triad/ROTTGame` folder in your Documents directory.
 
-To join an instagib server, simply install the mod and connect to the server using the server browser.
-
-You can launch a server two ways.
-
-## Using the Host Game menu or the dedicated server launcher
-
-You can use the game menu or the dedicated server launcher provided with the game to start instagib servers.
-
-In `ROTTGame/Config/MultiplayerData.ini` in the game folder, after the last `ROTTUIDataProvider_GameModeInfo` block, add:
+After copying the files, open `ROTTGame/Config/MultiplayerData.ini` in the game folder, and after the last `ROTTUIDataProvider_GameModeInfo` block, add:
 
 	[ROTTGame_MultiplayerIDM ROTTUIDataProvider_GameModeInfo]
 	GameMode=ROTTInstagib.ROTTGame_MultiplayerIDM
@@ -33,7 +25,15 @@ In `ROTTGame/Config/MultiplayerData.ini` in the game folder, after the last `ROT
 	GameModePrefixes=DM|TDM
 	PreviewImageMarkup=UIMapScreenshots.MapsSST.SCTF1_728
 
-This will allow you to select "Instagib DM" from the drop-down game type selection menu.
+To join an instagib server, simply install the mod and connect to the server using the server browser.
+
+You can launch a server two ways.
+
+## Using the Host Game menu or the dedicated server launcher
+
+You can use the game menu or the dedicated server launcher provided with the game to start instagib servers.
+
+Select "Instagib DM" from the drop-down game type selection menu when launching a server.
 
 ## From the command line
 
