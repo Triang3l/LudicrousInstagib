@@ -20,7 +20,11 @@ To join an instagib server, simply install the mod and connect to the server usi
 
 To start a listen server, select "Instagib Death Match" in the game type drop-down menu on the Host Game screen.
 
-If you want to start a dedicated server, first *insert the contents of `ROTTGame/Config/ROTTInstagib.ini` into `ROTTGame/Config/MultiplayerData.ini` in the game folder under `[ROTTGame_MultiplayerDM ROTTUIDataProvider_GameModeInfo]`*, and then select "Instagib Death Match" in the game type drop-down menu in the dedicated server launcher.
+If you want to start a dedicated server, you need to jump through some hoops:
+
+1. Insert the contents of `ROTTGame/Config/ROTTInstagib.ini` into `ROTTGame/Config/MultiplayerData.ini` in the game folder under the `[ROTTGame_MultiplayerDM ROTTUIDataProvider_GameModeInfo]` block.
+2. Delete the `ROTTInstagib.ini` file.
+3. Select "Instagib Death Match" in the game type drop-down menu in the dedicated server launcher.
 
 Modifying
 =========
