@@ -16,7 +16,7 @@ After copying the files, open `ROTTGame/Config/MultiplayerData.ini` in the game 
 
 	[ROTTGame_MultiplayerIDM ROTTUIDataProvider_GameModeInfo]
 	GameMode=ROTTInstagib.ROTTGame_MultiplayerIDM
-	FriendlyName=Instagib DM
+	FriendlyName=Instagib Death Match
 	DefaultMap=DM1
 	Prefixes=DM
 	OptionSet=DM
@@ -27,7 +27,7 @@ After copying the files, open `ROTTGame/Config/MultiplayerData.ini` in the game 
 
 To join an instagib server, simply install the mod and connect to the server using the server browser.
 
-To start a server, select "Instagib DM" in the game type drop-down menu on the Host Game screen or in the dedicated server launcher.
+To start a server, select "Instagib Death Match" in the game type drop-down menu on the Host Game screen or in the dedicated server launcher.
 
 Modifying
 =========
