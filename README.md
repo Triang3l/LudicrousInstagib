@@ -33,7 +33,7 @@ In `ROTTGame/Config/MultiplayerData.ini` in the game folder, after the last `ROT
 	GameModePrefixes=DM|TDM
 	PreviewImageMarkup=UIMapScreenshots.MapsSST.SCTF1_728
 
-This will allow you to select "Instagib DM" from the drop-down game mode selection menu.
+This will allow you to select "Instagib DM" from the drop-down game type selection menu.
 
 ## From the command line
 
